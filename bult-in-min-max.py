@@ -1,4 +1,4 @@
-In [1]: def maximum(value1, value2, value3):
+def maximum(value1, value2, value3):
    ...:    ...:     """Return the maximum of three values."""
    ...:    ...:     max_value = value1
    ...:    ...:     if value2 > max_value:
@@ -8,17 +8,17 @@ In [1]: def maximum(value1, value2, value3):
    ...:    ...:     return max_value
    ...: 
 
-In [2]: maximum(12, 27,36)
-Out[2]: 36
+print(maximum(12, 27,36))
+36
 
-In [3]: maximum(12.3, 45.6, 9.7)
-Out[3]: 45.6
+print(maximum(12.3, 45.6, 9.7))
+45.6
 
-In [4]: maximum('yellow', 'red', 'orange')
-Out[4]: 'yellow'
+print(maximum('yellow', 'red', 'orange'))
+'yellow'
 
-In [5]: maximum(13.5, -3, 7)
-Out[5]: 13.5
+print(maximum(13.5, -3, 7))
+13.5
 
-In [6]: min(15, 9, 27, 14)
-Out[6]: 9
+print(min(15, 9, 27, 14))
+9
